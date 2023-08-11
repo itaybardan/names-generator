@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+scipy = "*"
+torch = "*"
+transformers = "*"
+tokenizer = "*"
+torchaudio = "*"
+soundfile = "*"
+librosa = "*"
+matplotlib = "*"
+ipython = "*"
+pandas = "*"
+dotmap = "*"
+
+[dev-packages]
+
+[pipenv]
+allow_prereleases = true

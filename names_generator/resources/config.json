@@ -1,0 +1,18 @@
+{
+    "epochs": 1000,
+    "eval_interval": 3,
+    "learning_rate": 1e-3,
+    "batch_size": 16,
+    "num_embed": 10,
+    "num_head": 4,
+    "num_layers": 3,
+    "context_length": 50,
+    "dropout": 0.1,
+    "split": 0.9,
+    "sample_rate": 1000,
+    "output_path": "output",
+    "log": {
+        "level": "INFO",
+        "format": "%(asctime)s [%(levelname)s] - %(message)s"
+    }
+}
